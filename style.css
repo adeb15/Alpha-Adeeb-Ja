@@ -1,0 +1,92 @@
+head{background-color: aqua;}
+body {background-color: aqua;}
+p{color: brown;}
+h1{color: beige;}
+#adeb {color: brown;}
+p{background-color: rgba(187, 233, 255,4);}
+div {background-color:burlywood ;}
+#intel core i7 {background-color: blue;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00ff8c;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #00f1b1;
+  }
+  #may {background-color: rgb(216, 196, 196);}
+  body {
+    background: repeating-linear-gradient(
+      45deg,
+      #ff0000 0%,
+      #ffff00 25%,
+      #00ff00 50%,
+      #00ffff 75%,
+      #eaeaea 100%
+    );
+    
+    animation: moveGradient 10s linear infinite;
+  }
+  
+  @keyframes moveGradient {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 4000px 400px;
+    }
+  }
+  
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: bounce 2s ease-in-out infinite alternate;
+  }
+  
+  .dot:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .dot:nth-child(2) {
+    animation-delay: 1s;
+  }
+  
+  .dot:nth-child(3) {
+    animation-delay: 2s;
+  }
+  .dot:nth-child(4) {
+    animation-delay: 4s;
+  }
+  
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translate(-50%, -50%);
+    }
+    50% {
+      transform: translate(-50%, -20%);
+    }
+  }
+  
